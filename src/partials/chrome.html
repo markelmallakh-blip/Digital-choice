@@ -1,0 +1,44 @@
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"><span class="cursor__label"></span></div></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="index.html" class="nav__logo" aria-label="Digital Choice — home">
+      <svg viewBox="480 608 960 530" class="nav__mono"><use href="#m-dc" x="480" y="608" width="960" height="530"/><use href="#m-px" x="480" y="608" width="960" height="530"/><use href="#m-code" x="480" y="608" width="960" height="530"/></svg>
+      <svg viewBox="340 1190 1320 200" class="nav__word"><use href="#m-word" x="340" y="1190" width="1320" height="200"/></svg>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="services.html" class="roll {{active:services}}"><span data-text="Services">Services</span></a>
+      <a href="work.html" class="roll {{active:work}}"><span data-text="Work">Work</span></a>
+      <a href="about.html" class="roll {{active:about}}"><span data-text="About">About</span></a>
+    </nav>
+    <div class="nav__right">
+      <a href="contact.html" class="btn btn--pill magnetic"><span class="btn__fill"></span><span class="btn__txt">Let's talk</span><span class="btn__ico"><svg class="arw " viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12h9"/><path d="M11.5 5.5 19 12l-7.5 6.5z"/></svg></span></a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ============ MENU OVERLAY ============ -->
+  <div class="menu" aria-hidden="true">
+    <div class="menu__cells"></div>
+    <div class="menu__inner">
+      <div class="menu__col mono">
+        <span class="label">Menu</span>
+        <div class="menu__contact">
+          <a href="tel:+201227165958">+20 122 716 5958</a>
+          <a href="mailto:hello@digitalchoice-eg.com">hello@digitalchoice-eg.com</a>
+        </div>
+      </div>
+      <ul class="menu__list">
+        <li><a href="index.html" class="{{active:home}}"><span>Home</span></a></li>
+        <li><a href="services.html" class="{{active:services}}"><span>Services</span></a></li>
+        <li><a href="work.html" class="{{active:work}}"><span>Work</span></a></li>
+        <li><a href="about.html" class="{{active:about}}"><span>About</span></a></li>
+        <li><a href="contact.html" class="{{active:contact}}"><span>Contact</span></a></li>
+      </ul>
+      <div class="menu__foot mono">
+        <span>Code. Create. Grow.</span>
+        <span>Cairo — Egypt</span>
+      </div>
+    </div>
+  </div>
